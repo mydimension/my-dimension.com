@@ -1,0 +1,243 @@
+body {
+	background: #aad49c;
+}
+
+a {
+	color: #004096;
+	background: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+	background: inherit;
+	text-decoration: underline;
+}
+
+div.content p {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+div.content div.contactForm {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+div.masthead {
+	width: 80%;
+	padding: 0px;
+	margin: 0px 0px 0px 20%;
+	height: 56px;
+	background: #007500 url('../images/masthead_emerald.png') top left no-repeat;
+	border-bottom: 2px #82001c solid;
+}
+
+div.masthead h1 {
+	display: none;
+}
+
+div.content {
+	width: 80%;
+	background: #aad49c;
+	padding: 0px;
+	margin-left: 20%;
+}
+
+div.content h2 {
+	padding: 0px 0px 0px 0.5em;
+	margin: 0px;
+	border-bottom: 2px #82001c solid;
+	width: 80%;
+}
+
+div.navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20%;
+	background: #004096;
+	text-align: center;
+	border-right: 2px #82001c solid;
+	border-bottom: 2px #82001c solid;
+}
+
+div.navBar h4 {
+	margin: 0px;
+	padding: 0px 0px 0px 3px;
+	background: #82001c;
+	color: #aad49c;
+	text-align: left;
+}
+
+div.navBar ul.menu {
+	font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	text-align: left;
+	background: #004096;
+	border-bottom: 2px #82001c solid;
+}
+
+div.navBar ul.menu {
+	list-style-type: none;
+	margin: 10px 0px 0px 0px;
+	padding: 0px 0px 10px 10px;
+}
+
+div.navBar ul.menu li {
+	padding: 0px 0px 3px 0px;
+	margin: 0px;
+}
+
+div.navBar ul.menu li a {
+	display: block;
+	background: #004096;
+	color: #aad49c;
+	border-left: 4px #004000 solid;
+	text-decoration: none;
+	padding: 0px 0px 0px 3px;
+}
+
+div.navBar ul.menu li a:hover {
+	background: #aad49c;
+	color: #c31749;
+	text-decoration: underline;
+}
+
+div.navBar ul.blogRoll {
+	list-style-type: none;
+	padding: 0px;
+	margin: 10px 0px 10px 10px;
+	font-size: 0.75em;
+	text-align: left;
+}
+
+div.navBar ul.blogRoll li {
+	padding-bottom: 3px;
+	margin: 0px;
+}
+
+div.navBar ul.blogRoll li a {
+	display: block;
+	padding-left: 3px;
+	padding-right: 4px;
+	border-left: 4px #82001c solid;
+	color: #ffb1b9;
+}
+
+div.navBar ul.blogRoll li a:hover {
+	color: #004000;
+	background: #87cbff;
+}
+
+div.navBar div.buttons div {
+	margin: 0px auto 3px auto;
+}
+
+div.copyright {
+	clear: both;
+	width: 100%;
+	text-align: right;
+	font-size: 0.7em;
+	border-top: 2px #82001c solid;
+	background: #aad49c;
+}
+
+div.copyright p {
+	padding: 0px;
+	margin: 0px;
+	text-align: right;
+}
+
+div.blog {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+div.blog div.article {
+	margin-bottom: 2em;
+}
+
+div.blog div.article h3 {
+	text-align: right;
+	margin: 0px 0px 0px 0px;
+}
+
+div.blog div.article span.postDate, div.blog div.article span.postTime {
+	float: right;
+	clear: both;
+	font-size: 0.7em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 1em;
+}
+
+div.blog div.article div.body {
+	clear: both;
+	font-size: 0.9em;
+	border-top: 1px #82001c solid;
+}
+
+div.blog div.article div.body p {
+	padding: 0px;
+	margin: 0px 0px 1em 0px;
+	text-align: justify;
+}
+
+div.blog div.article div.body p code {
+	font-size: 1.1em;
+}
+
+div.blog div.article div.body pre code {
+	display: block;
+	margin-left: 0.5em;
+	padding: 3px;
+	border: 1px #000000 dashed;
+}
+
+div.blog div.article div.body blockquote {
+	background: #9ac48c;
+	padding: 5px;
+}
+
+div.blog div.article div.body blockquote p {
+	padding: 0px;
+	margin: 0px 0px 0.5em 0px;
+}
+
+div.blog div.article div.body blockquote div.blockquotesource {
+	text-align: right;
+}
+
+div.blog div.article div.footer div {
+	display: inline;
+	font-size: 0.7em;
+	margin-right: 1em;
+}
+
+div.blog div.article div.footer div.categories ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+div.blog div.article div.footer div.categories ul li {
+	display: inline;
+	margin-left: 0.5em;
+}
+
+/* div.comments */
+div.comments {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+div.comments div.entry {
+	border-bottom: 1px #82001c solid;
+}
+
+div.commentForm {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}

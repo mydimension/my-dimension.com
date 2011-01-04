@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/	# engines need no access to the /admin/ section.
+Disallow: /styles/	# nor do they need waste time on style sheets.
+Disallow: /js/		# or my javascripts for that matter
+Disallow: /priv_stats/	# keep out of server genrated stats page

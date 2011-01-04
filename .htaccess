@@ -1,0 +1,25 @@
+AddHandler server-parsed .html
+AddType text/x-component .htc
+
+RewriteEngine on
+RewriteBase /
+
+#take care of trailing slash problem for real directories
+RewriteCond    %{REQUEST_URI}		-d
+RewriteRule    ^(.+[^/])$		$1/ [R]
+
+RewriteRule ^rss.xml$						/feed/ [R]
+
+# WordPress is handling most of this internally
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+# Redirect gallery requests
+RewriteRule ^gallery(.*)	http://www.flickr.com/photos/mydimension/ [R]
+
+# block the idiots still trying to access a non-existent page
+RewriteCond %{REQUEST_URI} (^/refer) [NC]
+
+# give a solid 403 - Forbidden, thanks for coming out
+RewriteRule .* - [F,L]

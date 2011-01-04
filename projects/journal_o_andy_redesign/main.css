@@ -1,0 +1,136 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background: #000000;
+	color: #000000;
+	width: 720px;
+	margin: 10px auto 10px auto;
+}
+
+a {
+	color: #00003a;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #000000;
+}
+
+a:visited {
+	color: #85294E;
+}
+
+div {
+	color: #000000;
+	background: #e6e6e6;
+}
+
+/* right side content */
+div.content {
+	width: 525px;
+	float: right;
+}
+
+div.content h1 {
+	background: #85294e url('color_bars.gif') 100% 0% repeat-y;
+	color: #ffffff;
+	font-size: 1.2em;
+	padding: 4px 0px 4px 2px;
+	border-bottom: 8px #000000 solid;
+}
+
+div.content p {
+	font-weight: bold;
+	padding: 0.2em 5px 0.2em 5px;
+}
+
+div.content p.timestamp {
+	margin-top: 4em;
+}
+
+div.content p.mood {
+	margin-top: 3em;
+}
+
+div.content p.logHeader {
+	margin-bottom: 2em;
+}
+
+/* left side navigation */
+div.navBar {
+	width: 180px;
+	float: left;
+	border-top: 10px #000000 solid;
+}
+
+div.navBar h2 {
+	background: #85294e;
+	color: #ffffff;
+	font-size: 1.2em;
+	padding: 4px 0px 4px 2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-bottom: 8px #000000 solid;
+}
+
+div.navBar h2 a {
+	color: #ffffff;
+}
+
+div.navBar div {
+	border-bottom: 16px #000000 solid;
+}
+
+div.navBar div.menu ul {
+	margin: 2px 2px 2px -2.5em;
+	font-weight: bold;
+	list-style-type: none;
+}
+
+div.navBar div.updates ol {
+	margin: 2px 2px 2px -2.5em;
+	font-weight: bold;
+	list-style-type: none;
+}
+
+div.navBar div.contactForm form {
+	margin: 2px;
+}
+
+div.navBar div.contactForm form input {
+	background: #85294e;
+	color: #ffffff;
+	width: 170px;
+	height: 16px;
+	margin: 0px auto 0px auto;
+	font-size: 0.9em;
+	font-weight: bold;
+	border-color: #000000;
+	display: block;
+}
+
+div.navBar div.contactForm form textarea {
+	background: #85294e;
+	color: #ffffff;
+	width: 170px;
+	height: 60px;
+	margin: 0px auto 0px auto;
+	font-size: 0.9em;
+	border-color: #000000;
+}
+
+div.navBar div.contactForm form label {
+	display: block;
+	font-weight: bold;
+}
+
+div.navBar div.copyright p {
+	margin: 0px;
+	padding: 4px;
+	font-weight: bold;
+	border-bottom: 2px #000000 solid;
+}
+
+div.navBar div.copyright p a {
+	color: #000000;
+}

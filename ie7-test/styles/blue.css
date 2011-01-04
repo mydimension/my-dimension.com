@@ -1,0 +1,294 @@
+/* basic formatting for body, hn, p, img and others */
+body {
+	background: #f0f0f0;
+	color: #000000;
+}
+
+html>body {
+	margin: 0px 0px 25px 0px;
+}
+
+a {
+	color: #2222cc;
+	background: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #333333;
+	background: transparent;
+	text-decoration: underline;
+}
+
+/* the main div sections of the site */
+
+/* div.masthead */
+div.masthead {
+	text-align: right;
+	margin: 0px;
+	border-bottom: 2px solid #999999;
+	background: #cccccc url('/images/masthead_refined.png') 100% 0% no-repeat;
+	height: 60px;
+	color: #000000;
+}
+
+div.masthead h1 {
+	display: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* div.content */
+div.content {
+	margin: 0px 0px 5px 0px;
+	padding: 5px 10px 0px 1em;
+	float: left;
+	border-right: 2px solid #999999;
+	width: 80%;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 78%;
+}
+
+html>body div.content {
+	width: 78%;
+}
+
+div.content h2 {
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	border-bottom: 2px solid #0f0f0f;
+}
+
+/* div.navBar */
+div.navBar {
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	font-size: 0.7em;
+	text-align: center;
+	float: left;
+	width: 20%;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 18%;
+}
+
+html>body div.navBar {
+	width: 18%;
+}
+
+div.navBar h4 {
+	margin-left: 5px;
+	margin-bottom: 3px;
+	text-align: left;
+}
+
+div.navBar ul.menu {
+	margin: 0px 7px 10px 10px;
+	padding: 0px 0px 0px 0px;
+	list-style-type: none;
+	text-align: left;
+}
+
+div.navBar>ul.menu {
+	width: auto;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 10px 0px 10px;
+}
+
+div.navBar ul.menu li {
+	padding-bottom: 3px;
+	margin: 0px;
+}
+
+div.navBar ul.menu li a {
+	display: block;
+	padding-left: 3px;
+	padding-right: 3px;
+	border-left: 4px solid #0000aa;
+	background: #aaaaff;
+	border-right: 4px solid #3333ee;
+	color: #000000;
+	text-decoration: none;
+}
+
+div.navBar ul.menu li a:hover {
+	color: #000000;
+	background: transparent;
+	text-decoration: none;
+}
+
+div.navBar ul.blogRoll {
+	text-align: left;
+	margin: 0px 7px 10px 10px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+div.navBar ul.blogRoll li {
+	padding-bottom: 3px;
+	margin: 0px;
+}
+
+div.navBar ul.blogRoll li a {
+	padding-left: 3px;
+	padding-right: 4px;
+	border-left: 4px solid #0000aa;
+	display: block;
+}
+
+div.navBar ul.blogRoll li a:hover {
+	background: #aaaaff;
+	color: #000000;
+	text-decoration: none;
+}
+
+div.navBar div.buttons div {
+	margin: 0 auto 4px auto;
+}
+
+/* div.copyright */
+div.copyright {
+	clear: both;
+	float: none;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	text-align: center;
+	font-size: 0.7em;
+	width: 60%;
+	border-top: 1px solid #0f0f0f;
+}
+
+div.copyright p {
+	margin: 0px 0px 10px 0px;
+	text-align: center;
+}
+
+/* div.tail */
+div.tail {
+	width: 100%;
+	height: 23px;
+	margin: 0px;
+	padding: 0px;
+	background: url('../images/background_tile.jpg') #f0f0f0 repeat-x;
+	border-top: 2px #999999 solid;
+}
+
+body>div.tail {
+	margin: -23px 0px 0px 0px;
+	position: fixed;
+	top: 100%;
+	left: 0%;
+	z-index: 1;
+}
+
+/* div.blog */
+div.blog {
+	padding: 0px;
+	margin: 0px 0px 0px 1em;
+}
+
+div.blog div.article {
+	padding: 0px 0px 0px 5px;
+	margin: 0px 0px 15px 0px;
+	border-left: 2px solid #0f0f0f;
+}
+
+div.blog div.article h3 {
+	font-size: 1.2em;
+	margin: 0px;
+	padding: 0px;
+	display: compact;
+}
+
+div.blog div.article h3 a {
+	margin: 0px;
+	padding: 0px 0px 0px 3px;
+	border-left: 1.2em solid #0000aa;
+}
+
+div.blog div.article h3 a:hover {
+	border-color: #9999ff;
+}
+
+div.blog div.article span.postDate {
+	margin: 0px 0px 0px 12px;
+	padding: 0px;
+	font-size: 0.7em;
+	font-family: georgia, palatino, "Times New Roman", times, serif;
+}
+
+div.blog div.article span.postTime {
+	margin: 0px;
+	padding: 0px;
+	font-size: 0.7em;
+	font-family: georgia, palatino, "Times New Roman", times, serif;
+}
+
+div.blog div.article div.body {
+	padding: 0px 0em 0em 0em;
+	margin: 5px 0px 0px 0px;
+	border-top: 2px solid #0f0f0f;
+}
+
+div.blog div.article div.body p {
+	text-align: justify;
+	padding: 0px;
+	margin: 0px 0px 0.5em 0px;
+	font-size: 0.9em;
+}
+
+div.blog div.article div.body a {
+	font-weight: bold;
+}
+
+div.blog div.article div.body blockquote {
+	padding: 0px 3px 0px 3px;
+	font-size: 0.9em;
+	border-left: 2px solid #0f0f0f;
+	color: #000000;
+	background: #dddddd;
+}
+
+div.blog div.article div.body blockquote div.blockquotesource {
+	font-size: 0.8em;
+	text-align: right;
+}
+
+div.blog div.article div.body pre {
+	margin-left: 2em;
+}
+
+div.blog div.footer {
+	text-align: right;
+	font-size: 0.75em;
+	font-family: georgia, palatino, "Times New Roman", times, serif;
+}
+
+div.blog div.footer div.comments, div.blog div.footer div.pingbacks {
+	display: inline;
+	margin-right: 1.5em;
+}
+
+div.blog div.footer div.categories {
+	display: inline;
+}
+
+div.blog div.footer div.categories ul {
+	margin: 0px 0px 0px -0.5em;
+	padding: 0px;
+	display: inline;
+	list-style-type: none;
+}
+
+div.blog div.footer div.categories ul li {
+	margin: 0px 0px 0px 0.5em;
+	padding: 0px;
+	display: inline;
+}
+
+/* div.comments */
+div.comments div.entry {
+	border-bottom: 1px solid #0f0f0f;
+}

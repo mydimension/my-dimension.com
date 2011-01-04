@@ -1,0 +1,271 @@
+body {
+	color: #000000;
+	background: #dddddd url('../images/backgrounds/sf10.gif');
+}
+
+div#masthead {
+	margin: 0;
+	padding: 0.5em 0 0 0;
+	background: #e9e9e9 url('../images/backgrounds/sf10.gif');
+	color: #5a5a5a;
+	border-bottom: 2px #aaaaaa solid;
+}
+
+div#masthead h1 {
+	margin: 0;
+	padding: 0;
+}
+
+div#content {
+	width: 70%;
+	float: left;
+	margin: 0 0 0 0.6%;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	border: 2px #eeeeee solid;
+	border-top: 0;
+	background: #ffffff;
+}
+
+body > div#content {
+	padding: 0.5em;
+	margin-left: 1.6%;
+}
+
+div#content a {
+	color: #353590;
+	text-decoration: none;
+}
+
+div#content a:hover {
+	color: #3333cc;
+	text-decoration: underline;
+}
+
+div#content h2 {
+	margin: 0 -0.5em 0 -0.5em;
+	padding: 0 0 0 0.5em;
+	border-bottom: 2px #eeeeee solid;
+	font-size: 1.2em;
+}
+
+div#content h5 {
+	margin: 2em -0.6em 0 -0.6em;
+	padding: 0 0 0 0.25em;
+	border-bottom: 2px #eeeeee solid;
+	color: #4f0000;
+}
+
+div#navBar {
+	float: left;
+	width: 160px;
+	margin: 0 0 0 20px;
+	padding: 3px 0 0 0;
+	background: transparent;
+	font-size: 0.7em;
+}
+
+div#navBar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	color: inherit;
+}
+
+div#navBar li {
+	margin: 0 0 3px 0;
+	padding: 0;
+}
+
+div#navBar ul li ul {
+	background: #e9e9e9;
+	text-align: left;
+	font-weight: normal;
+}
+
+div#navBar ul li#menu {
+	text-align: center;
+	margin: 3px 0 0 0;
+	background: #cccccc;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+div#navBar ul li#menu ul li a {
+	display: block;
+	width: 157px;
+	padding: 0 0 0 3px;
+	margin: 0;
+	border-top: 2px #dddddd solid;
+	border-bottom: 2px #dddddd solid;
+	text-decoration: none;
+	background: #dddddd;
+	color: #353590;
+	font-size: 1.2em;
+}
+
+div#navBar li#menu ul li a:hover {
+	background: #cccccc;
+	color: #1f1f1f;
+}
+
+div#navBar ul li#search {
+	text-align: center;
+	margin: 10px 0 0 0;
+	background: #cccccc;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+div#navBar ul li#search form {
+	background: #e9e9e9;
+	font-weight: normal;
+}
+
+div#navBar ul li#search form input {
+	padding: 0;
+	margin: 3px 0 0 0;
+}
+
+div#navBar ul li#buttons {
+	text-align: center;
+	margin: 10px 0 0 0;
+	background: #cccccc;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+div#navBar ul li#buttons ul li {
+	margin: 0px auto 3px auto;
+}
+
+div#navBar ul li#frequent-reads,
+div#navBar ul li#categories,
+div#navBar ul li#archives
+{
+	text-align: center;
+	margin: 10px 0 0 0;
+	background: #cccccc;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+div#navBar ul li#frequent-reads ul,
+div#navBar ul li#categories ul,
+div#navBar ul li#archives ul
+{
+	padding-top: 3px;
+}
+
+div#navBar ul li#frequent-reads ul li a,
+div#navBar ul li#categories ul li a,
+div#navBar ul li#archives ul li a
+{
+	display: block;
+	width: 154px;
+	border-left: 3px #d0d0d0 solid;
+	padding: 0 0 0 3px;
+	margin: 0;
+	color: #333333;
+	text-decoration: none;
+}
+
+div#navBar ul li#frequent-reads ul li a:hover,
+div#navBar ul li#categories ul li a:hover,
+div#navBar ul li#archives ul li a:hover
+{
+	background: #bdbdbd;
+	color: #353590;
+}
+
+div#copyright {
+	float: none;
+	clear: both;
+	font-size: 0.7em;
+	border-top: 2px #eeeeee solid;
+	background: #ffffff;
+	margin: -2px 0 0 0;
+}
+
+div#copyright p {
+	margin: 0;
+	padding: 0;
+}
+
+div.blog {
+	margin-bottom: 1em;
+}
+
+div.article h3 {
+	margin-left: -3em;
+	margin-bottom: 0;
+	margin-top: 0.5em;
+}
+
+div.article h3 a {
+	color: #0d248f;
+	padding-left: 0.5em;
+	border-left: 3em #4e506e solid;
+	text-decoration: none;
+}
+
+div.article h3 a:hover {
+	color: #3333cc;
+	border-color: #000000;
+	text-decoration: underline;
+}
+
+div.article span.postDate, div.article span.postTime {
+	padding-top: 0;
+	font-size: 0.7em;
+}
+
+div.article div.body blockquote {
+	background: #dddddd;
+	border: 2px #aaaaaa solid;
+	padding: 0 2px 0 2px;
+}
+
+div.article div.body blockquote div.blockquotesource {
+	font-size: 0.7em;
+	text-align: right;
+}
+
+div.article div.body pre code {
+	width: 95%;
+	margin: 0;
+	padding: 0 0 0 3px;
+	display: block;
+	border: 1px #aaaaaa dashed;
+	font-size: 0.9em;
+}
+
+div.article div.body {
+	border-top: 1px #aaaaaa solid;
+}
+
+div.article div.body p {
+	margin: 0 0 1em 0;
+}
+
+div.article div.footer div {
+	display: inline;
+	font-size: 0.7em;
+	margin: 0 1em 0 0;
+}
+
+div.article div.footer div.categories ul {
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+div.article div.footer div.categories ul li {
+	display: inline;
+	padding: 0;
+	margin: 0 0.5em 0 0;
+}
+
+div.comments div.entry {
+	border-bottom: 1px #aaaaaa solid;
+}

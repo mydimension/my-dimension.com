@@ -1,0 +1,241 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+}
+
+body a[href^="mailto:"] {
+	background: transparent url('../images/aemail.gif') 100% 50% no-repeat;
+	padding-right: 10px;
+	white-space: nowrap;
+}
+
+div#content a[href^="http:"] {
+	background: transparent url('../images/aoutside.gif') 100% 50% no-repeat;
+	padding-right: 10px;
+	white-space: nowrap;
+}
+
+div#content a[href^="http://my-dimension.com"],
+div#content a[href^="http://www.my-dimension.com"] {
+	background: inherit;
+	padding-right: 0px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: georgia, palatino, "Times New Roman", times, serif;
+}
+
+img {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+p {
+	font-size: 0.9em;
+}
+
+span.note {
+	font-size: 0.7em;
+	display: block;
+	margin-bottom: 10px;
+}
+
+div.article div.body ol, div.article div.body ul {
+	font-size: 0.9em;
+}
+
+div.comments {
+	margin-bottom: 2em;
+}
+
+div.comments div.entry p {
+	margin: 0px;
+	padding: 1em 0px 0.2em 0px;
+}
+
+div.comments div.entry div.contactInfo {
+	font-size: 0.7em;
+}
+
+div.comments div.entry div.contactInfo span.name {
+	margin-right: 0.5em;
+}
+
+div.comments div.entry div.contactInfo span.email {
+	margin-right: 0.5em;
+}
+
+div.comments div.entry div.contactInfo span.website {
+	margin-right: 0.5em;
+}
+
+div.comments div.entry div.contactInfo span.postDate {
+	margin-left: 0.5em;
+}
+
+form input, form textarea, form select {
+	margin-bottom: 1em;
+}
+
+form fieldset {
+	width: 40%;
+	padding: 0px 0px 0px 1em;
+	margin-bottom: 10px;
+}
+
+form label {
+	font-size: 0.9em;
+	display: block;
+}
+
+form textarea {
+	display: block;
+}
+
+form p.options input, form p.options label {
+	display: inline;
+}
+
+form p.options input {
+	vertical-align: 0%;
+}
+
+form p.options > input {
+	vertical-align: -95%;
+}
+
+/* buttons */
+div#navBar li.rssIcon {
+	width: 80px;
+	height: 15px;
+	padding: 0px;
+	background: url('../images/rss10.gif') no-repeat;
+}
+
+div#navBar li.rssIcon a {
+	width: 80px;
+	height: 15px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#navBar li.rssIcon a span {
+	display: none;
+}
+
+div#navBar li.geourl {
+	width: 80px;
+	height: 15px;
+	padding: 0px;
+	background: url('../images/geourl.gif') no-repeat;
+}
+
+div#navBar li.geourl a {
+	width: 80px;
+	height: 15px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#navBar li.geourl a span {
+	display: none;
+}
+
+div#navBar li.xhtml {
+	width: 80px;
+	height: 15px;
+	padding: 0px;
+	background: url('../images/xhtml.gif') no-repeat;
+}
+
+div#navBar li.xhtml a {
+	width: 80px;
+	height: 15px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#navBar li.xhtml a span {
+	display: none;
+}
+
+div#navBar li.css {
+	width: 80px;
+	height: 15px;
+	padding: 0px;
+	background: url('../images/validcss.gif') no-repeat;
+}
+
+div#navBar li.css a {
+	width: 80px;
+	height: 15px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#navBar li.css a span {
+	display: none;
+}
+
+div#navBar li.blogshares {
+	width: 80px;
+	height: 15px;
+	padding: 0px;
+	background: url('../images/blogshares.gif') no-repeat;
+}
+
+div#navBar li.blogshares a {
+	width: 80px;
+	height: 15px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#navBar li.blogshares a span {
+	display: none;
+}
+
+div#navBar li.dwws {
+	width: 80px;
+	height: 15px;
+	padding: 0px;
+	background: url('../images/dwws.gif') no-repeat;
+}
+
+div#navBar li.dwws a {
+	width: 80px;
+	height: 15px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#navBar li.dwws a span {
+	display: none;
+}
+
+div#navBar li.xfn {
+	width: 80px;
+	height: 15px;
+	padding: 0px;
+	background: url('../images/xfn.gif') no-repeat;
+}
+
+div#navBar li.xfn a {
+	width: 80px;
+	height: 15px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#navBar li.xfn a span {
+	display: none;
+}
